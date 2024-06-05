@@ -90,7 +90,6 @@
 +-- nui/
 	+-- assets /
 	&brvbar;	+-- css /
-	&brvbar;	&brvbar;    +-- helper.css (helper CSS classes)
 	&brvbar;	&brvbar;    +-- light-style.css (light style CSS)
 	&brvbar;	&brvbar;    +-- theme.css (master CSS)
 	&brvbar;	+-- img /
@@ -123,7 +122,6 @@
 					<p> files can be found in "UPLOAD" folder <a> </a></p>
 
 					<img src="assets/img/img-2.png" alt="">
-
 				</div> <!-- /.doc-section-inner -->
 			</section>
 			<!-- End section -->
@@ -134,12 +132,9 @@
 				<div class="doc-section-inner">
 
 					<h2 class="section-heading">HTML Structure</h2>
-
 					<p>This template uses its own grid system with similar logic to the <a href="https://getbootstrap.com/docs/5.0/layout/grid/" target="_blank">Bootstrap grid system</a>.</p>
-
 					<br>
-
-					<h4>Basic HTML markup for template grid system:</h4>
+					<h4>Basic HTML markup for grid system:</h4>
 </pre>
 
 				</div> <!-- /.doc-section-inner -->
@@ -156,7 +151,6 @@
 					<p><strong>jQuery</strong> - is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript. For more information: <a href="http://jquery.com/" target="_blank">http://www.jquery.com</a></p>
 
 					<p><em><strong>Note:</strong></em> The initialization of the elements, libs and features is made by the file named "<strong>theme.js</strong>" which is located in the folder named "<strong>js</strong>".</p>
-
 				</div> <!-- /.doc-section-inner -->
 			</section>
 			<!-- End section -->
@@ -165,111 +159,13 @@
 			============================================== -->
 			<section id="customization-styles" class="doc-section">
 				<div class="doc-section-inner">
-
 					<h2 class="section-heading">Customization &amp; Styles</h2>
 					<div class="alert"></div>
 					<br>
 					<br>
 					<br>
-
-					<h3>Light Style:</h3>
-
-					<p>This template comes with a style switch so you can easily switch between dark and light styles (the default style is dark).</p> 
-
-					<h4>If you want the default style to be light, proceed as follows:</h4>
-
-					<p><strong>1)</strong> In <strong>&lt;head&gt;</strong> section on your template HTML files find this line:</p>
-
-<pre class="prettyprint lang-html linenums">
-&lt;link id=&quot;tt-themecss&quot; rel=&quot;stylesheet&quot; href=&quot;assets/css/theme.css&quot;&gt;
-</pre>
-
-					<br>
-
-					<p><strong>2)</strong> Below it add:</p>
-
-<pre class="prettyprint lang-html linenums">
-&lt;!-- Template light style CSS (default) --&gt;
-&lt;link id=&quot;tt-light-style-default&quot; rel=&quot;stylesheet&quot; href=&quot;assets/css/light-style.css&quot;&gt;
-</pre>
-					
-					<br>
-					
-					<p><strong>3)</strong> You may need to delete your browser's cookies and cache.</p>
-
-					<br>
-					<br>
-
-					<h4>If you want to use only the light style of the template (without the dark style), proceed as fol
-</pre>
-					
-					<br>
-
-					<p><strong>4)</strong> Remove all style switch code in this section.</p>
-
-					<p><strong>5)</strong> You may need to delete your browser's cookies and cache.</p>
-
-
-					<br>
-					<br>
-
-					<h4>If you don't want to use the light style at all (dark style only), proceed as follows:</h4>
-
-					<p><strong>1)</strong> Open file "<strong>assets/js/theme.js</strong>" and find:</p>
-
-<pre class="prettyprint lang-html linenums">
-	// ==========================================================================
-	// Begin template style switch
-	// NOTE: Remove this code if you do not want to use the template light style.
-	// ==========================================================================
-</pre>
-					
-					<br>
-
-					<p><strong>2)</strong> Remove all style switch code in this section.</p>
-
-					<p><strong>3)</strong> You may need to delete your browser's cookies and cache.</p>
-
-
-					<br>
-					<br>
-					<br>
-
-					<h3>Useful Tip:</h3>
-
-					<p>The good practice is that you do not edit directly to the template core CSS files. Instead, create a new CSS file (for example "<i>custom.css</i>") and place it in the folder <code>assets/css/</code>, then make your changes there.
-					<br>
-					<br>
-					Do not forget to add:  <code class="text-red">&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/custom.css&quot;&gt;</code> to the <code>&lt;head&gt;</code> part of your HTML file. Make sure it is located below line: <code>&lt;link id=&quot;tt-themecss&quot; rel=&quot;stylesheet&quot; href=&quot;assets/css/theme.css&quot;&gt;</code>, otherwise it will not work.</p>
-
-					<h4>Example:</h4>
-
-					In <code>&lt;head&gt;</code> part of your HTML file find:
-
-<pre class="prettyprint lang-html linenums">
-&lt;!-- Template master CSS --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/helper.css&quot;&gt;
-&lt;link id=&quot;tt-themecss&quot; rel=&quot;stylesheet&quot; href=&quot;assets/css/theme.css&quot;&gt;
-</pre>
-
-					Below it add:
-
-<pre class="prettyprint lang-html linenums">
-&lt;!-- Template custom CSS --&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;assets/css/custom.css&quot;&gt;
-</pre>
-
-					<p>Now file <code>custom.css</code> overwrites the master CSS files, and next time if you update the template, then your CSS changes will not be lost.</p>
-
-				</div> <!-- /.doc-section-inner -->
-			</section>
-			<!-- End section -->
-
-
-
-
-
-			<!-- ==========================================
+				</p>
+				<!-- ==========================================
 			///// Begin section (Sliders & Carousels) /////
 			=========================================== -->
 			<section id="sliders-carousels" class="doc-section">
@@ -283,12 +179,6 @@
 				</div> <!-- /.doc-section-inner -->
 			</section>
 			<!-- End section -->
-
-
-
-
-
-
 			<!-- ==========================================
 			///// Begin section (Sliders & Carousels) /////
 			=========================================== -->
