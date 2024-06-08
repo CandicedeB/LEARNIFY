@@ -1,9 +1,6 @@
-/* =================================================================
-* Template JS
-* 
-* Template:    Nui - Creative Portfolio Showcase HTML Website Template
-* Author:      Themetorium
-* URL:         https://themetorium.net/
+/* ================================================================
+* Template:    LEARNIFY - Free Educational Learning Platform
+* Author:      ItsJustDice
 ================================================================= */
 
 
@@ -16,9 +13,6 @@
 // Image lazy loading
 // Main menu (classic)
 // Overlay menu 
-// Portfolio slider (full screen)
-// Portfolio carousel (full screen carousel)
-// Portfolio hover carousel (full screen carousel)
 // Blog carousel
 // Content carousel
 // Testimonials slider
