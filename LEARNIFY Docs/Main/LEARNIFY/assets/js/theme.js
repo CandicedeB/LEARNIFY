@@ -21,15 +21,6 @@
 // Page header
 // Next project
 // GSAP ScrollTrigger plugin
-// Portfolio thumbnail list
-// Portfolio interactive
-// Portfolio split
-// Portfolio list
-// Portfolio grid
-// tt-Gallery
-// Accordion
-// Sidebar (classic)
-// Sliding sidebar
 // Scrolling text
 // Scroll between anchors 
 // Scroll to top 
