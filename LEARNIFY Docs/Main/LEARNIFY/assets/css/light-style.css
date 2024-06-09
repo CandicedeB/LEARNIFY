@@ -1,9 +1,8 @@
 /* --------------------------------------------------------------------
-* Template Light Stylesheet
+* Light Stylesheet
 * 
-* Template:		Nui - Creative Portfolio Showcase HTML Website Template
-* Author:		Themetorium
-* URL:			https://themetorium.net/
+* Template:		Nui - Free Educational Learning Platform
+* Author:	    ItsJustDice
 *
 -------------------------------------------------------------------- */
 
@@ -18,19 +17,7 @@
 * Overlay menu
 * Page header
 * tt-Ggrid categories/filter
-* Portfolio grid
-* Portfolio carousel
-* Portfolio slider (full screen)
-* Portfolio interactive
 * Portfolio list
-* Portfolio single
-* Blog list
-* Blog carousel
-* Blog single post
-* Content carousel
-* Sidebar (classic)
-* Sliding sidebar
-* Sidebar widgets
 * tt-Signature
 * tt-Headings
 * Forms
@@ -52,8 +39,8 @@
 /* ------------------------------------------------------------- */
 
 :root {
-	--tt-main-bg-color: #f3f3f3; /* Template background color (you can play with some light variations). */
-	--tt-main-color: #b12c0d; /* Template main color. */
+	--tt-main-bg-color: #f3f3f3; /* background color (you can play with some light variations). */
+	--tt-main-color: #b12c0d; /* main color. */
 	--tt-ghost-color: #e9e8e5; /* Title ghost color. */
 }
 
