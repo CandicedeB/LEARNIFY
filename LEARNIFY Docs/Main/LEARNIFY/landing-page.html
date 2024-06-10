@@ -401,7 +401,7 @@
 													</defs>
 													<!-- If you change the text, you probably need to adjust the CSS so that it fits correctly. Find ".scr-btn-text" in file "theme.css" and adjust it for your needs. -->
 													<text dy="30" class="scr-btn-text">
-														<textPath xlink:href="#textcircle"> Learning - Learning Together - </textPath>
+														
 													</text>
 												</svg>
 											</div>
@@ -414,6 +414,52 @@
 							</div> <!-- /.tt-section-inner -->
 						</div>
 						<!-- End tt-section -->
+
+						<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+    <script>
+        // Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyCWZzlcRQYUVh0DDNMZaZT20lUySlJvZGc",
+            authDomain: "learnify-b0829.firebaseapp.com",
+            projectId: "learnify-b0829",
+            storageBucket: "learnify-b0829.appspot.com",
+            messagingSenderId: "69385142539",
+            appId: "1:69385142539:web:9d928ed477f98691cb620e"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+    <div class="login-container">
+        <form id="loginForm">
+            <h2>Login</h2>
+            <div class="input-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" required>
+            </div>
+            <button type="submit">Login</button>
+            <p id="error-message"></p>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
 					<!-- ========================
 					///// Begin page header /////
 					============================= 
