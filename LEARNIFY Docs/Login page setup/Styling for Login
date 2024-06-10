@@ -1,0 +1,75 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 2px solid black; /* Optional for a bold outline */
+}
+
+h2 {
+    color: black;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: black;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+input:focus {
+    border-color: orange;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: black;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: orange;
+    color: black;
+}
+
+#error-message {
+    color: red;
+    margin-top: 15px;
+    font-weight: bold;
+}
