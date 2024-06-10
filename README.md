@@ -11,10 +11,6 @@ In South Africa, where unemployment is high, a free education platform can aim t
 - The target audience would include unemployed youth, underprivileged communities, adult learners, and micro-entrepreneurs/small business owners.
 
 
-**Author Focus:**
-
-- Candice de Bruin - Front-end Developer
-
 ## Accomplishments 
 
 - **Landind page:** Interactive display.
